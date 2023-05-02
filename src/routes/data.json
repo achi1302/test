@@ -1,0 +1,34 @@
+[
+    {
+        "id":"1",
+        "name":"Percy Jackson and the Olympians: The Lightning Thief",
+        "autor":"Rick Riordan",
+        "descripcion": "Percy Jackson is about to be kicked out of boarding school...again. And that's the least of his troubles. Lately, mythological monsters and the gods of Mount Olympus seem to be walking straight out of the pages of Percy's Greek mythology textbook and into his life. And worse, he's angered a few of them. Zeus' master lightning bolt has been stolen, and Percy is the prime suspect. Now Percy and his friends have just ten days to find and return Zeus' stolen property and bring peace to a warring Mount Olympus. But to succeed on his quest, Percy will have to do more than catch the true thief: he must come to terms with the father who abandoned him; solve the riddle of the Oracle, which warns him of betrayal by a friend; and unravel a treachery more powerful than the gods themselves.",
+        "score":"4.3",
+        "bundle":"Percy Jackson and the Olympians",
+        "genres": "Fantasy, Greek Mythology, Young Adult, Fiction, Adventure"
+      
+    },
+
+    {
+        "id":"2",
+        "name":"Percy Jackson and the Olympians: The Sea of Monsters",
+        "autor":"Rick Riordan",
+        "descripcion": "Percy Jackson’s seventh-grade year has been surprisingly quiet. Not a single monster has set foot on his New York prep-school campus. But when an innocent game of dodgeball among Percy and his classmates turns into a death match against an ugly gang of cannibal giants, things get... well, ugly. And the unexpected arrival of Percy’s friend Annabeth brings more bad news: the magical borders that protect Camp Half-Blood have been poisoned by a mysterious enemy, and unless a cure is found, the only safe haven for demigods will be destroyed. In this fresh, funny, and hugely anticipated follow up to The Lightning Thief, Percy and his friends must journey into the Sea of Monsters to save their beloved camp. But first, Percy will discover a stunning new secret about his family—one that makes him question whether being claimed as Poseidon’s son is an honor or simply a cruel joke.",
+        "score":"4.2",
+        "bundle":"Percy Jackson and the Olympians",
+        "genres": "Fantasy, Greek Mythology, Young Adult, Fiction, Adventure"
+       
+    },
+
+    {
+        "id":"3",
+        "name":"Percy Jackson and the Olympians: The Titan's Curse",
+        "autor":"Rick Riordan",
+        "descripcion": "When Percy Jackson receives an urgent distress call from his friend Grover, he immediately prepares for battle. He knows he'll need his powerful demigod allies at his side; his trusty bronze sword, Riptide; and... a ride from his mom. The demigods race to the rescue to find that Grover has made an important discovery: two powerful half-bloods, whose parentage is unknown. But that's not all that awaits them. The Titan lord Kronos has set up a devious trap, and the young heroes have just fallen prey. Hilarious and action-packed, this third adventure in the series finds Percy faced with his most dangerous challenge yet--the chilling prophecy of the Titan's curse.",
+        "score":"4.4",
+        "bundle":"Percy Jackson and the Olympians",
+        "genres": "Fantasy, Greek Mythology, Young Adult, Fiction, Adventure"
+       
+    }
+]

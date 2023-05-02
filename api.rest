@@ -1,0 +1,200 @@
+////////////LIBROS/////////////////////////////
+###
+GET http://localhost:3000/api/libros
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/autor
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/name
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/descripcion
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/bundles
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/score
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/genres
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/relatedTo
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/followers
+
+###
+POST http://localhost:3000/api/libros
+Content-Type: application/json
+
+{
+        "name":"Percy Jackson and the Olympians: The Lightning Thief",
+        "autor":"Rick Riordan",
+        "descripcion": "Percy Jackson is about to be kicked out of boarding school...again. And that's the least of his troubles. Lately, mythological monsters and the gods of Mount Olympus seem to be walking straight out of the pages of Percy's Greek mythology textbook and into his life. And worse, he's angered a few of them. Zeus' master lightning bolt has been stolen, and Percy is the prime suspect. Now Percy and his friends have just ten days to find and return Zeus' stolen property and bring peace to a warring Mount Olympus. But to succeed on his quest, Percy will have to do more than catch the true thief: he must come to terms with the father who abandoned him; solve the riddle of the Oracle, which warns him of betrayal by a friend; and unravel a treachery more powerful than the gods themselves.",
+        "score":"4.3",
+        "bundle":"Percy Jackson and the Olympians",
+        "genres": "Fantasy, Greek Mythology, Young Adult, Fiction, Adventure",
+        "relatedTo": "The Heroes of Olympus, The Trials of Apollo, Magnus Chase and the Gods of Asgard",
+        "followers": "Alfonso, Javier, Shuraby"
+        
+}
+
+###
+DELETE  http://localhost:3000/api/libros/645060a4733d6adfbde68993
+
+###
+PUT  http://localhost:3000/api/libros/64506148733d6adfbde68996
+Content-Type: application/json
+
+{
+      "name":"Percy Jackson and the Olympians: The Battle of the Labyrint",
+        "autor":"Rick Riordan",
+        "descripcion": "Percy Jackson isn't expecting freshman orientation to be any fun. But when a mysterious mortal acquaintance appears at his potential new school, followed by demon cheerleaders, things quickly move from bad to worse. In this fourth installment of the blockbuster series, time is running out as war between the Olympians and the evil Titan lord Kronos draws near. Even the safe haven of Camp Half-Blood grows more vulnerable by the minute as Kronos's army prepares to invade its once impenetrable borders. To stop the invasion, Percy and his demigod friends must set out on a quest through the Labyrinth - a sprawling underground world with stunning surprises at every turn.",
+        "score":"4.4",
+        "bundle":"Percy Jackson and the Olympians",
+        "genres": "Fantasy, Greek Mythology, Young Adult, Fiction, Adventure",
+        "releatedTo": "The Heroes of Olympus, The Trials of Apollo, Magnus Chase and the Gods of Asgard",
+        "followers": "Alfonso, Javier, Shuraby"
+        
+    
+}
+
+
+/////////GRUPOS/////////////////////////////////
+###
+GET http://localhost:3000/api/grupos
+
+###
+GET http://localhost:3000/api/grupos/6450b1c20b0037a70435dc31
+
+###
+GET http://localhost:3000/api/grupos/6450b1c20b0037a70435dc31/nombre
+
+###
+GET http://localhost:3000/api/grupos/6450b1c20b0037a70435dc31/miembros
+
+###
+GET http://localhost:3000/api/grupos/6450b1c20b0037a70435dc31/descripcion
+
+###
+DELETE  http://localhost:3000/api/grupos/6450a90f3c3a03c5071730f2
+
+###
+POST http://localhost:3000/api/grupos
+Content-Type: application/json
+
+{
+    "nombre":"Camp Half-Blood",
+    "miembros":"etor, Alfonso, Javier, Shuraby, Sofia",
+    "descripcion":"pppjalv"     
+}
+
+###
+PUT http://localhost:3000/api/grupos/6450a90f3c3a03c5071730f2
+Content-Type: application/json
+
+{
+    "miembros":"etor, Alfonso, Javier, Shuraby, Sofia",
+    "descripcion":"pppjalv"     
+}
+
+
+//////////////AUTOR/////////////////////////////
+###
+GET http://localhost:3000/api/autores
+
+###
+GET http://localhost:3000/api/autores/6450b51c271e59d67bc881a6
+
+###
+GET http://localhost:3000/api/autores/6450b51c271e59d67bc881a6/nombre
+
+###
+GET http://localhost:3000/api/autores/6450b51c271e59d67bc881a6/about
+
+###
+GET http://localhost:3000/api/autores/6450b51c271e59d67bc881a6/libros
+
+###
+POST http://localhost:3000/api/autores
+Content-Type: application/json
+
+{
+    "nombre":"Rick Riordan",
+    "about":"Rick Riordan is the #1 New York Times bestselling author of many books, including the Percy Jackson series. You can follow him on Twitter and via his official website.",
+    "libros":"Percy Jackson and the Olympians, The Heroes of Olympus, The Red Pyramid, The Trials of Apollo, Magnus Chase and the Gods of Asgard, The Sun and the Star, Percy Jackson and the Olympians: The Chalice of the Gods, Daughter of the Deep"     
+}
+
+###
+PUT  http://localhost:3000/api/autores/6450b51c271e59d67bc881a6
+Content-Type: application/json
+
+{
+    "nombre":"Rick Riordan",
+    "about":"Rick Riordan is the #1 New York Times bestselling author of many books, including the Percy Jackson series. You can follow him on Twitter and via his official website.",
+    "libros":"Percy Jackson and the Olympians, The Heroes of Olympus, The Red Pyramid, The Trials of Apollo, Magnus Chase and the Gods of Asgard, The Sun and the Star, Percy Jackson and the Olympians: The Chalice of the Gods, Daughter of the Deep, Percy Jackson and the Olympians: The Demigod Files"     
+}
+
+###
+DELETE  http://localhost:3000/api/autores/6450b13f767e2781ff136c6e
+
+
+////////////////////////USUARIOS///////////////////////
+###
+GET http://localhost:3000/api/usuarios
+
+###
+GET http://localhost:3000/api/usuarios/645182690c711733294f954c
+
+###
+GET http://localhost:3000/api/usuarios/645182690c711733294f954c/username
+
+###
+GET http://localhost:3000/api/usuarios/645182690c711733294f954c/reviews
+
+###
+GET http://localhost:3000/api/usuarios/645182690c711733294f954c/grupos
+
+###
+GET http://localhost:3000/api/usuarios/645182690c711733294f954c/friends
+
+###
+GET http://localhost:3000/api/usuarios/645182690c711733294f954c/WantToRead
+
+###
+GET http://localhost:3000/api/usuarios/645182690c711733294f954c/activity
+
+###
+POST http://localhost:3000/api/usuarios
+Content-Type: application/json
+
+{
+    "username":"achi_02",
+    "reviews":"'Yo ya me hubiera ido con la Rachel la verdad.' - Percy Jackson and the Olympians: The Battle of the Labyrinth",
+    "grupos":"pppjalv",
+    "friends":"Alfonso, Javier, Shuraby, Sofia",
+    "WantToRead":"From the world of Percy Jackson: The Sun and the Star",
+    "activity":"Actualmente leyendo: Harry Potter and the Chamber of Secrets"    
+}
+
+###
+PUT http://localhost:3000/api/usuarios/645182690c711733294f954c
+Content-Type: application/json
+
+{
+    "username":"achi_02",
+    "reviews":"'Yo ya me hubiera ido con la Rachel la verdad.' - Percy Jackson and the Olympians: The Battle of the Labyrinth",
+    "grupos":"pppjalv",
+    "friends":"Alfonso, Javier, Shuraby, Sofia",
+    "WantToRead":"Percy Jackson and the Olympians: The Chalice of the Gods",
+    "activity":"Actualmente leyendo: Harry Potter and the Chamber of Secrets"    
+}
+
+###
+DELETE http://localhost:3000/api/usuarios/64517ee81a12fc3b1633f348
