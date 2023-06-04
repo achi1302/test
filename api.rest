@@ -9,6 +9,9 @@ GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb
 GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/autor
 
 ###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/autor_descripcion
+
+###
 GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/name
 
 ###
@@ -24,41 +27,82 @@ GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/score
 GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/genres
 
 ###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/paginas
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/fecha
+
+###
 GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/relatedTo
 
 ###
 GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/followers
 
 ###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/resena1
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/resena1_nom
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/resena1_rating
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/resena1_num
+
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/resena2
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/resena2_nom
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/resena2_rating
+
+###
+GET http://localhost:3000/api/libros/64506dcb369fb837314fe2eb/resena2_num
+
+###
 POST http://localhost:3000/api/libros
 Content-Type: application/json
 
 {
-        "name":"Percy Jackson and the Olympians: The Lightning Thief",
+        "name":"El Ultimo Héroe del Olimpo",
         "autor":"Rick Riordan",
-        "descripcion": "Percy Jackson is about to be kicked out of boarding school...again. And that's the least of his troubles. Lately, mythological monsters and the gods of Mount Olympus seem to be walking straight out of the pages of Percy's Greek mythology textbook and into his life. And worse, he's angered a few of them. Zeus' master lightning bolt has been stolen, and Percy is the prime suspect. Now Percy and his friends have just ten days to find and return Zeus' stolen property and bring peace to a warring Mount Olympus. But to succeed on his quest, Percy will have to do more than catch the true thief: he must come to terms with the father who abandoned him; solve the riddle of the Oracle, which warns him of betrayal by a friend; and unravel a treachery more powerful than the gods themselves.",
-        "score":"4.3",
-        "bundle":"Percy Jackson and the Olympians",
-        "genres": "Fantasy, Greek Mythology, Young Adult, Fiction, Adventure",
-        "relatedTo": "The Heroes of Olympus, The Trials of Apollo, Magnus Chase and the Gods of Asgard",
-        "followers": "Alfonso, Javier, Shuraby"
-        
+        "autor_descripcion":"Rick Riordan es el autor de muchos libros más vendidos del New York Times, incluida la serie Percy Jackson.",
+        "descripcion":"Los mestizos han dedicado mucho tiempo a prepararse para la batalla decisiva contra los titanes, aunque saben que sus posibilidades de obtener la victoria son mínimas. El ejército de Cronos es ahora más formidable que nunca y, con cada dios y cada mestizo que logra reclutar, aumentan los poderes del maligno titán. Tras fracasar en un primer intento de detener en alta mar las arrolladoras tropas de Cronos, Percy Jackson y los olímpicos se esfuerzan por mantener a raya la furia desatada del monstruo Tifón. Y cuando Cronos ordena el avance definitivo hacia Nueva York, donde el monte Olimpo, en lo alto del Empire State, se encuentra prácticamente indefenso, pararle los pies al implacable Señor del Tiempo dependerá exclusivamente de Percy y su hueste de jóvenes semidioses..",
+        "score":"4.5",
+        "bundle":"Percy Jackson y los Dioses del Olimpo",
+        "genres": "Fantasía, Mitología Griega, Ficción, Aventura",
+        "paginas":"381 páginas",
+        "fecha":"Publicado el 5 de Mayo, 2009",
+        "releatedTo": "La Maldición del Titán, La Batalla del Laberinto",
+        "followers": "Alfonso, Javier, Shuraby",
+        "resena1":"Acabo de leer el pico de la ficción.",
+        "resena1_nom":"etor",
+        "resena1_rating":"5",
+        "resena1_num":"420",
+        "resena2":"The Great Prophecy was indeed in his lifetime.",
+        "resena2_nom":"Rick",
+        "resena2_rating":"5",
+        "resena2_num":"1"
 }
 
 ###
-DELETE  http://localhost:3000/api/libros/645060a4733d6adfbde68993
+DELETE  http://localhost:3000/api/libros/6477dbef5300581a3df28f80
 
 ###
-PUT  http://localhost:3000/api/libros/64506148733d6adfbde68996
+PUT  http://localhost:3000/api/libros/6477d9fc5300581a3df28f77
 Content-Type: application/json
 
 {
-      "name":"Percy Jackson and the Olympians: The Battle of the Labyrint",
+        "name":"El Ladrón del Rayo",
         "autor":"Rick Riordan",
-        "descripcion": "Percy Jackson isn't expecting freshman orientation to be any fun. But when a mysterious mortal acquaintance appears at his potential new school, followed by demon cheerleaders, things quickly move from bad to worse. In this fourth installment of the blockbuster series, time is running out as war between the Olympians and the evil Titan lord Kronos draws near. Even the safe haven of Camp Half-Blood grows more vulnerable by the minute as Kronos's army prepares to invade its once impenetrable borders. To stop the invasion, Percy and his demigod friends must set out on a quest through the Labyrinth - a sprawling underground world with stunning surprises at every turn.",
-        "score":"4.4",
-        "bundle":"Percy Jackson and the Olympians",
-        "genres": "Fantasy, Greek Mythology, Young Adult, Fiction, Adventure",
+        "descripcion": "¿Qué pasaría si un día descubrieras que, en realidad, eres hijo de un dios griego que debe cumplir una misión secreta? Pues eso es lo que le sucede a Percy Jackson, que a partir de ese momento se dispone a vivir los acontecimientos más emocionantes de su vida. Expulsado de seis colegios, Percy padece dislexia y dificultades para concentrarse, o al menos ésa es la versión oficial. Objeto de burlas por inventarse historias fantásticas, ni siquiera él mismo acaba de creérselas hasta el día que los dioses del Olimpo le revelan la verdad: Percy es nada menos que un semidiós, es decir, el hijo de un dios y una mortal. Y como tal ha de descubrir quién ha robado el rayo de Zeus y así evitar que estalle una guerra entre los dioses. Para cumplir la misión contará con la ayuda de sus amigos Grover, un joven sátiro, y Annabeth, hija de Atenea.",
+        "score":"4.2",
+        "bundle":"Percy Jackson y los Dioses del Olimpo",
+        "genres": "Fantasía, Mitología Griega, Ficción, Aventura",
         "releatedTo": "The Heroes of Olympus, The Trials of Apollo, Magnus Chase and the Gods of Asgard",
         "followers": "Alfonso, Javier, Shuraby"
         
@@ -83,25 +127,41 @@ GET http://localhost:3000/api/grupos/6450b1c20b0037a70435dc31/miembros
 GET http://localhost:3000/api/grupos/6450b1c20b0037a70435dc31/descripcion
 
 ###
-DELETE  http://localhost:3000/api/grupos/6450a90f3c3a03c5071730f2
+DELETE  http://localhost:3000/api/grupos/647c1f208711cc52f19cea45
 
 ###
 POST http://localhost:3000/api/grupos
 Content-Type: application/json
 
 {
-    "nombre":"Camp Half-Blood",
+    "nombre":"Grupo Lectura CETYS",
     "miembros":"etor, Alfonso, Javier, Shuraby, Sofia",
-    "descripcion":"pppjalv"     
+    "descripcion":"El ganador de la votación fue Quiubole con.... Estaremos leyendo los primeros 3 capítulos para el 25 de febrero y lo estaremos platicando en la semana del 28.",
+    "miembro1nom":"Alfonso",
+    "miembro1post":"A simple vista un libro de instrucción con lenguaje común y, a momentos soez, en profundidad de análisis Quiúbole con... demuestra ser una obra con una capacidad formativa considerable, la cual es sin lugar a duda un catalizador para el desarrollo del pensamiento crítico en la juventud...",
+    "miembro1tit":"Simplemente fenomenal",
+    "miembro1lib":"Quiobole con...",
+    "miembro1group":"Grupo de Lectura CETYS",
+    "miembro2nom":"Javier",
+    "miembro2post":"no me gusta yo leo puros libros de comunistas q es esto no le entendí",
+    "miembro2tit":"No me gustó",
+    "miembro2lib":"Quiobole con...",
+    "miembro2group":"Grupo de Lectura CETYS",
+    "miembro3nom":"Shuraby",
+    "miembro3post":"I'm just here so I don't get fined",
+    "miembro3tit":"Si muy padre",
+    "miembro3lib":"Quiobole con...",
+    "miembro3group":"Grupo de Lectura CETYS"
 }
 
 ###
-PUT http://localhost:3000/api/grupos/6450a90f3c3a03c5071730f2
+PUT http://localhost:3000/api/grupos/647c1f208711cc52f19cea45
 Content-Type: application/json
 
 {
+    "nombre":"Grupo Lectura CETYS",
     "miembros":"etor, Alfonso, Javier, Shuraby, Sofia",
-    "descripcion":"pppjalv"     
+    "descripcion":"El ganador de la votación fue Quiubole con.... Estaremos leyendo los primeros 3 capítulos para el 25 de febrero y lo estaremos platicando en la semana del 28."     
 }
 
 

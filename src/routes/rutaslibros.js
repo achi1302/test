@@ -46,5 +46,21 @@ router.delete('/:id', librosCtrl.deleteLibro);
 //actualizar
 router.put('/:id', librosCtrl.updateLibro);
 
+//newnew
+router.get('/:id/autor_descripcion', librosCtrl.getAutorDescripcionByID);
+
+router.get('/:id/paginas', librosCtrl.getPaginasByID);
+
+router.get('/:id/fecha', librosCtrl.getFechaByID);
+
+router.get('/:id/resena1', librosCtrl.getResena1ByID);
+router.get('/:id/resena1_nom', librosCtrl.getResena1NombreByID);
+router.get('/:id/resena1_rating', librosCtrl.getResena1RatingByID);
+router.get('/:id/resena1_num', librosCtrl.getResena1NumeroByID);
+
+router.get('/:id/resena2', librosCtrl.getResena2ByID);
+router.get('/:id/resena2_nom', librosCtrl.getResena2NombreByID);
+router.get('/:id/resena2_rating', librosCtrl.getResena2RatingByID);
+router.get('/:id/resena2_num', librosCtrl.getResena2NumeroByID);
 
 module.exports = router;
